@@ -1,20 +1,13 @@
-/* Basic reset and base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9; /* Light grey background */
-  color: #333; /* Darker text for better readability */
+  background-color: #f4f4f9;
+  color: #333;
   padding: 20px;
 }
 
 header, footer {
-  background-color: #343a40; /* Dark background */
-  color: #ffffff; /* White text */
+  background-color: #343a40;
+  color: #ffffff;
   padding: 20px;
   text-align: center;
 }
@@ -24,13 +17,32 @@ header h1 {
   margin-bottom: 10px;
 }
 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
 main {
   max-width: 800px;
   margin: 0 auto;
-  background-color: #ffffff; /* White background for content */
+  background-color: #ffffff;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for better separation */
-  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 h1, h2, h3 {
@@ -42,10 +54,16 @@ p {
 }
 
 a {
-  color: #007bff; /* Blue links */
+  color: #007bff;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline; /* Underline links on hover */
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
 }
