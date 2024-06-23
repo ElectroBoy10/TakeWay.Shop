@@ -1,15 +1,14 @@
-/* Basic reset and base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Default light mode */
+:root {
+  --background-color: #f4f4f9; /* Light grey background */
+  --text-color: #333; /* Darker text for better readability */
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9; /* Light grey background */
-  color: #333; /* Darker text for better readability */
-  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
 }
 
 header, footer {
@@ -19,33 +18,10 @@ header, footer {
   text-align: center;
 }
 
-header h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
+/* Dark mode */
+body.dark-mode {
+  --background-color: #333; /* Dark background */
+  --text-color: #f4f4f9; /* Light text */
 }
 
-main {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #ffffff; /* White background for content */
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for better separation */
-  border-radius: 8px; /* Rounded corners */
-}
-
-h1, h2, h3 {
-  margin-bottom: 20px;
-}
-
-p {
-  margin-bottom: 10px;
-}
-
-a {
-  color: #007bff; /* Blue links */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline; /* Underline links on hover */
-}
+/* Other styles (e.g., header, footer) can also be adjusted for dark mode */
