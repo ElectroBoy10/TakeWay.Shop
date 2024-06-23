@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <script src="{{ '/assets/js/toggle.js' | relative_url }}" defer></script>
 </head>
 <body>
   <header>
@@ -15,6 +16,11 @@
   </main>
   <footer>
     <p>Made by Electroboy2008</p>
+    <!-- Toggle switch for day/night mode -->
+    <label class="switch">
+      <input id="theme-toggle" type="checkbox">
+      <span class="slider round"></span>
+    </label>
   </footer>
 </body>
 </html>
