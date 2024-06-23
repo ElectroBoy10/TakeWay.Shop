@@ -11,7 +11,7 @@ title: Home Made Goods
 [Visit our homepage](https://link-unavailable)
 
 ## Click on this link to see what I sell / Druk hier om te sien wat ek verkoop
-[Products Page](https://link-unavailable)
+[Products Page](https://share.samsungcloud.com/sharedalbum/6JN1UIcZI4)
 
 All orders must be picked up, we don’t deliver unless seen otherwise.
 
