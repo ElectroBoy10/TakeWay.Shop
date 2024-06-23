@@ -16,5 +16,3 @@ title: Home Made Goods
 [Location](https://maps.app.goo.gl/vDgT3D6rJisTjN4Z9)
 
 All orders must be picked up, we don’t deliver unless otherwise arranged. / Alle bestellings moet afgehaal word, ons lewer nie af nie, tensy anders gereël.
-
-### Made by Electroboy2008
