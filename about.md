@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 
-# About Home Made Goods
+# About Page
 
 ## About the Shop
 Home Made Goods is a family-run shop specializing in homemade products. We take pride in offering high-quality, handcrafted items that are made with love and care.
