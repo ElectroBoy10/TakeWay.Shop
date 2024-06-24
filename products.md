@@ -16,7 +16,7 @@ title: Products
 
 {% endfor %}
 
-### Not-in-Stock Products
+### Coming soon
 {% for product in products['Not-in-stock'] %}
 ### {{ product.dispname }}
 
