@@ -4,22 +4,17 @@
 #   - filename: "Butternut.jpeg"
 #     dispname: "Butternut"
 #     price: "R15.00"
-#     Note: "This product is not yet available for sale."
 #
 #   - filename: "Tomatoes.jpeg"
 #     dispname: "Tomato"
 #     price: "R10.00"
-#     Note: "!This product is currently out of stock."
 #
 # Not-in-stock:
 #   - filename: "boerewors.jpeg"
 #     dispname: "Wors"
 #     price: "R20.00"
-#     Note: "!This product is currently out of stock."
 #
 # Ensure each product follows this structure:
 # - Use `filename` for the image file name.
 # - Use `dispname` for the display name of the product.
 # - Use `price` for the price of the product.
-# - Use `Note` for any additional notes about the product.
-# - Notes starting with `!` will not be displayed.
