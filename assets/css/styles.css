@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   margin: 0; /* Remove default body margin */
-  padding: 20px; /* Add padding to body */
+  padding: 0px; /* Add padding to body */
 }
 
 header, footer {
