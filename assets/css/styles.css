@@ -38,7 +38,7 @@ header h1 {
 
 main {
   max-width: 800px;
-  margin: 20px auto; /* Center content with reduced margin */
+  margin: 0px auto; /* Center content with reduced margin */
   background-color: rgba(255, 255, 255, 0.95); /* White background for content with slight transparency */
   padding: 30px; /* Increased padding for content */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for better separation */
