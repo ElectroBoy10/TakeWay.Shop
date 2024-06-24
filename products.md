@@ -3,7 +3,7 @@ layout: products
 title: Products
 ---
 
-## Our Products
+## (Back to main page)[https://electroboy10.github.io/TakeWay.github.io/]
 
 {% assign products = site.data.products %}
 
@@ -16,7 +16,7 @@ title: Products
 
 {% endfor %}
 
-### Coming soon
+### !! COMING SOON !!
 {% for product in products['Not-in-stock'] %}
 ### {{ product.dispname }}
 
@@ -24,3 +24,4 @@ title: Products
 **Price:** {{ product.price }}
 
 {% endfor %}
+
