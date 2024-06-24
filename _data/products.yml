@@ -15,6 +15,6 @@ Not-in-stock:
   - filename: "boerewors.jpeg"
     dispname: "Wors"
     price: "R20.00"
-    outofstock: true
+    outofstock: false
     notonsaleyet: false
     
