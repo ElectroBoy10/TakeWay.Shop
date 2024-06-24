@@ -6,10 +6,25 @@
     <title>Your Website Title</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
     <script>
-        function toggleDarkMode() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
+        // Check system preferences for dark mode
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+        // Function to set theme mode based on system preference
+        function setThemeMode() {
+            if (prefersDarkScheme.matches) {
+                document.body.classList.add("dark-mode");
+            } else {
+                document.body.classList.remove("dark-mode");
+            }
         }
+
+        // Set initial theme mode
+        setThemeMode();
+
+        // Listen for changes in system preference and update theme accordingly
+        prefersDarkScheme.addEventListener("change", () => {
+            setThemeMode();
+        });
     </script>
 </head>
 <body>
