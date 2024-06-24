@@ -11,8 +11,8 @@ title: Products
 {% for product in products.Products %}
 ### {{ product.dispname }}
 
-{% if product.outofstock %}
-**Status:** Out of Stock
+{% if product.Note and product.Note[0] != '!' %}
+**Note:** {{ product.Note }}
 {% else %}
 ![{{ product.dispname }}]({{ '/assets/images/products/' | relative_url }}{{ product.filename }})
 **Price:** {{ product.price }}
@@ -24,8 +24,8 @@ title: Products
 {% for product in products['Not-in-stock'] %}
 ### {{ product.dispname }}
 
-{% if product.outofstock %}
-**Status:** Out of Stock
+{% if product.Note and product.Note[0] != '!' %}
+**Note:** {{ product.Note }}
 {% else %}
 ![{{ product.dispname }}]({{ '/assets/images/products/' | relative_url }}{{ product.filename }})
 **Price:** {{ product.price }}
