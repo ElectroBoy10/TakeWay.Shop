@@ -1,1 +1,70 @@
+/* Basic reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../images/Productsbackground.jpg');
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  color: #333; /* Darker text for better readability */
+}
+
+.container {
+  padding: 20px;
+}
+
+header, footer {
+  background-color: rgba(52, 58, 64, 0.8); /* Dark background with transparency */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8); /* White background for content with slight transparency */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for better separation */
+  border-radius: 8px; /* Rounded corners */
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff; /* Blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+footer {
+  font-size: 0.8em; /* Make the footer text smaller */
+  text-align: center; /* Center the footer text */
+  position: fixed; /* Make the footer fixed to the bottom */
+  bottom: 0px;
+  width: 100%; /* Make the footer take the full width */
+  padding: 1;
+}
