@@ -14,10 +14,6 @@ title: Products
 ![{{ product.dispname }}]({{ '/assets/images/products/' | relative_url }}{{ product.filename }})
 **Price:** {{ product.price }}
 
-{% unless product.Note contains '!' %}
-**Note:** {{ product.Note | remove: '!' }}
-{% endunless %}
-
 {% endfor %}
 
 ### Not-in-Stock Products
@@ -26,9 +22,5 @@ title: Products
 
 ![{{ product.dispname }}]({{ '/assets/images/products/' | relative_url }}{{ product.filename }})
 **Price:** {{ product.price }}
-
-{% unless product.Note contains '!' %}
-**Note:** {{ product.Note | remove: '!' }}
-{% endunless %}
 
 {% endfor %}
