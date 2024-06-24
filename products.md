@@ -11,12 +11,12 @@ title: Products
 {% for product in products.Products %}
 ### {{ product.dispname }}
 
-{% if product.Note and product.Note[0] != '!' %}
-**Note:** {{ product.Note }}
-{% else %}
 ![{{ product.dispname }}]({{ '/assets/images/products/' | relative_url }}{{ product.filename }})
 **Price:** {{ product.price }}
-{% endif %}
+
+{% unless product.Note contains '!' %}
+**Note:** {{ product.Note | remove: '!' }}
+{% endunless %}
 
 {% endfor %}
 
@@ -24,11 +24,11 @@ title: Products
 {% for product in products['Not-in-stock'] %}
 ### {{ product.dispname }}
 
-{% if product.Note and product.Note[0] != '!' %}
-**Note:** {{ product.Note }}
-{% else %}
 ![{{ product.dispname }}]({{ '/assets/images/products/' | relative_url }}{{ product.filename }})
 **Price:** {{ product.price }}
-{% endif %}
+
+{% unless product.Note contains '!' %}
+**Note:** {{ product.Note | remove: '!' }}
+{% endunless %}
 
 {% endfor %}
