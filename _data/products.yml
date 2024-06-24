@@ -2,15 +2,12 @@ Products:
    - filename: "Butternut.jpeg"
      dispname: "Butternut"
      price: "R15.00"
-     Note: "Cool."
 
    - filename: "Tomatoes.jpeg"
      dispname: "Tomato"
      price: "R10.00"
-     Note: "!This should show when ! is not added."
 
  Not-in-stock:
    - filename: "boerewors.jpeg"
      dispname: "Wors"
      price: "R20.00"
-     Note: "!This txt sould not show if ! is added."
