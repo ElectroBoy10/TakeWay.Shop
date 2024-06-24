@@ -1,1 +1,12 @@
+- Filename: "Butternut.jpeg"
+  Dispname: "Butternut"
+  Price: "R15.00"
+  Outofstock: false
+  Notonsaleyet: true
 
+- Filename: "Tomatoes.jpeg"
+  Dispname: "Tomato"
+  Price: "R10.00"
+  Outofstock: true
+  Notonsaleyet: false
+  
