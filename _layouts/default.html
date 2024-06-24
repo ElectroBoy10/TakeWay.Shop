@@ -1,46 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-    <script>
-        // Check system preferences for dark mode
-        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-
-        // Function to set theme mode based on system preference
-        function setThemeMode() {
-            if (prefersDarkScheme.matches) {
-                document.body.classList.add("dark-mode");
-            } else {
-                document.body.classList.remove("dark-mode");
-            }
-        }
-
-        // Set initial theme mode
-        setThemeMode();
-
-        // Listen for changes in system preference and update theme accordingly
-        prefersDarkScheme.addEventListener("change", () => {
-            setThemeMode();
-        });
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-    <div class="container">
-        <h1>Home Made Goods</h1>
-        
-        <h2>Contact me on this number to order:</h2>
-        <p><a href="https://wa.me/27656772625" target="_blank">+27 65 677 2625</a></p>
-        
-        <h2>Click on this link to see all my products:</h2>
-        <p><a href="https://share.samsungcloud.com/sharedalbum/6JN1UIcZI4" target="_blank">Products Page</a></p>
-        
-        <h2>General location:</h2>
-        <p><a href="https://maps.app.goo.gl/8ARvU1cLznvn4eVu9" target="_blank">Location</a></p>
-        
-        <a href="general-info.html" class="button">Read all the needed info</a>
-    </div>
+  <header>
+    <h1>{{ site.title }}</h1>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>Made by Electroboy2008</p>
+  </footer>
+
+  <!-- JavaScript to make all links open in a new tab -->
+  <script>
+    document.querySelectorAll('a').forEach(link => {
+      link.setAttribute('target', '_blank');
+    });
+
+    // Display a message for desktop users
+    if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      alert('Please switch to an Android or iPhone to view this page properly.');
+    }
+  </script>
 </body>
 </html>
