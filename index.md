@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Take Way
+title: TakeWay Home
 ---
 
 ## Contact me to order on WhatsApp.
