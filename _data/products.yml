@@ -1,12 +1,12 @@
 Products:
-  - filename: "Butternut.jpeg"
-    dispname: "Butternut"
+  - filename: "9a68938f-4607-4911-afc7-ac03e5fb66f7.jpg"
+    dispname: "Jaffels"
     price: "R15.00"
-  - filename: "Tomatoes.jpeg"
-    dispname: "Tomato"
-    price: "R10.00"
 
 Not-in-stock:
-  - filename: "boerewors.jpeg"
-    dispname: "Wors"
-    price: "R20.00"
+  - filename: ""
+    dispname: "Curry mince vetkoek"
+    price: "R?"
+  - filename: ""
+    dispname: "HamBurger"
+    price: "R?"
