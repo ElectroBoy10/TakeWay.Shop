@@ -5,15 +5,20 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-image: url('../images/Background.jpeg');
-  background-size: stretch;
-  background-repeat: no-repeat;
+  background-size: stretch; /* Ensures the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center;
   color: #333; /* Darker text for better readability */
-  padding: 20px;
+  /* Removed padding from body */
 }
+
 .container {
   padding: 20px; /* Apply padding to a container element instead */
 }
@@ -31,13 +36,12 @@ header h1 {
 }
 
 main {
-  font-family: Arial, sans-serif;
-  background-image: url('../images/Background.jpeg');
-  background-size: cover; /* Changed to cover to stretch the background image */
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #333; /* Darker text for better readability */
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* White background for content with slight transparency */
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for better separation */
+  border-radius: 8px; /* Rounded corners */
 }
 
 h1, h2, h3 {
