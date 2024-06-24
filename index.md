@@ -13,3 +13,6 @@ title: TakeWay Home
 [Location](https://maps.app.goo.gl/vDgT3D6rJisTjN4Z9)
 
 All orders must be picked up, we don’t deliver unless otherwise arranged.
+
+testing
+Check out our [products page](products.html) to see what we have in stock. note this is for testing
