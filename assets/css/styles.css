@@ -20,13 +20,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
   margin: 0; /* Remove default body margin */
-  padding: 0px; /* Add padding to body */
+  padding: 20px; /* Add padding to body */
 }
 
 header, footer {
-  background-color: rgba(52, 58, 64, 0.8); /* Dark background with transparency */
+  background-color: #343a40; /* Dark background */
   color: #ffffff; /* White text */
-  padding: 1px 1px; /* Adjusted padding for header and footer */
+  padding: 10px 20px; /* Adjusted padding for header and footer */
   text-align: center;
 }
 
@@ -38,8 +38,8 @@ header h1 {
 
 main {
   max-width: 800px;
-  margin: 0px auto; /* Center content with reduced margin */
-  background-color: rgba(255, 255, 255, 0.95); /* White background for content with slight transparency */
+  margin: 20px auto; /* Center content with reduced margin */
+  background-color: #ffffff; /* White background for content */
   padding: 30px; /* Increased padding for content */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for better separation */
   border-radius: 8px; /* Rounded corners */
@@ -65,5 +65,5 @@ a:hover {
 
 footer {
   font-size: 0.9em; /* Adjusted font size for footer */
-  padding: 1px 1px; /* Adjusted padding for footer */
+  padding: 10px 20px; /* Adjusted padding for footer */
 }
