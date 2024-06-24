@@ -7,5 +7,5 @@
 - Filename: "Tomatoes.jpeg"
   Dispname: "Tomato"
   Price: "R10.00"
-  Outofstock: true
+  Outofstock: false
   Notonsaleyet: false
