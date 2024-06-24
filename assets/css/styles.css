@@ -14,6 +14,9 @@ body {
   color: #333; /* Darker text for better readability */
   padding: 20px;
 }
+.container {
+  padding: 20px; /* Apply padding to a container element instead */
+}
 
 header, footer {
   background-color: rgba(52, 58, 64, 0.8); /* Dark background with transparency */
