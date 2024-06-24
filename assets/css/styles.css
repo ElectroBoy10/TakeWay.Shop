@@ -60,5 +60,10 @@ a {
 }
 
 a:hover {
-  text-decorat
-  
+  text-decoration: underline; /* Underline links on hover */
+}
+
+footer {
+  font-size: 0.9em; /* Adjusted font size for footer */
+  padding: 10px 20px; /* Adjusted padding for footer */
+}
