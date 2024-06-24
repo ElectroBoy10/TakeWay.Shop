@@ -13,7 +13,7 @@ body {
   font-family: Arial, sans-serif;
   background-image: url('../images/Productsbackground.jpg');
   background-size: cover; /* Ensures the image covers the entire viewport */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-repeat: repeat; /* Prevents the image from repeating */
   background-position: center;
   color: #333; /* Darker text for better readability */
 }
@@ -39,7 +39,7 @@ main {
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.8); /* White background for content with slight transparency */
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for better separation */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Light shadow for better separation */
   border-radius: 8px; /* Rounded corners */
 }
 
@@ -66,5 +66,5 @@ footer {
   position: fixed; /* Make the footer fixed to the bottom */
   bottom: 0px;
   width: 100%; /* Make the footer take the full width */
-  padding: 1;
+  padding: 0;
 }
