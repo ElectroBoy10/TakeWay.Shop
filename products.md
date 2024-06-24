@@ -8,9 +8,7 @@ title: Products
 {% assign products = site.data.products %}
 
 ### Available Products
-{% for category in products %}
-{% if category[0] == 'Products' %}
-{% for product in category[1] %}
+{% for product in products.Products %}
 ### {{ product.dispname }}
 
 {% if product.outofstock %}
@@ -20,14 +18,10 @@ title: Products
 **Price:** {{ product.price }}
 {% endif %}
 
-{% endfor %}
-{% endif %}
 {% endfor %}
 
 ### Not-in-Stock Products
-{% for category in products %}
-{% if category[0] == 'Not-in-stock' %}
-{% for product in category[1] %}
+{% for product in products['Not-in-stock'] %}
 ### {{ product.dispname }}
 
 {% if product.outofstock %}
@@ -37,6 +31,4 @@ title: Products
 **Price:** {{ product.price }}
 {% endif %}
 
-{% endfor %}
-{% endif %}
 {% endfor %}
