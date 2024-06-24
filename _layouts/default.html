@@ -22,36 +22,6 @@
     document.querySelectorAll('a').forEach(link => {
       link.setAttribute('target', '_blank');
     });
-
-    // Messages to display
-    const messages = [
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Pleasssssssse go to an android device.',
-      'You are really annoying 😡.',
-      'Why are you even trying.',
-      'Stop, I will not give you access.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Error.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'sn eiwmBie;imwn siw. wiqb2insuwubsgsuw',
-      'ACCESS GRANTED SUCCESSFULLY'
-    ];
-
-    // Function to check device and display messages
-    function checkDevice() {
-      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        for (const message of messages) {
-          alert(message);
-        }
-      }
-    }
-
-    // Run the device check
-    checkDevice();
   </script>
 </body>
 </html>
