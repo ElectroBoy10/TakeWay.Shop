@@ -1,58 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-</head>
-<body>
-  <header>
-    <h1>TakeWay</h1>
-  </header>
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <p>Made by Electroboy2008</p>
-  </footer>
+/* Basic reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <!-- JavaScript to make all links open in a new tab -->
-  <script>
-    document.querySelectorAll('a').forEach(link => {
-      link.setAttribute('target', '_blank');
-    });
+html, body {
+  height: 100%;
+}
 
-    // Messages to display
-    const messages = [
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Pleasssssssse go to an android device.',
-      'You are really annoying 😡.',
-      'Why are you even trying.',
-      'Stop, I will not give you access.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'Error.',
-      'Please switch to an Android or iPhone to view this page properly.',
-      'sn eiwmBie;imwn siw. wiqb2insuwubsgsuw',
-      'ACCESS GRANTED SUCCESSFULLY'
-    ];
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../images/Background.jpeg');
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center;
+  color: #333; /* Darker text for better readability */
+}
 
-    // Function to check device and display messages
-    function checkDevice() {
-      if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        for (const message of messages) {
-          alert(message);
-        }
-      }
-    }
+.container {
+  padding: 20px;
+}
 
-    // Run the device check
-    checkDevice();
-  </script>
-</body>
-</html>
-      
+header, footer {
+  background-color: rgba(52, 58, 64, 0.8); /* Dark background with transparency */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9); /* White background for content with slight transparency */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for better separation */
+  border-radius: 8px; /* Rounded corners */
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff; /* Blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+footer {
+  font-size: 0.8em; /* Make the footer text smaller */
+  text-align: center; /* Center the footer text */
+  position: fixed; /* Make the footer fixed to the bottom */
+  bottom: 10px;
+  width: 100%; /* Make the footer take the full width */
+  padding: 0;
+}
