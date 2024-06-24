@@ -7,12 +7,10 @@ title: TakeWay Home
 [WhatsApp +27 65 677 2625](https://wa.me/27656772625)
 
 ## Click on this link to see what food I sell.
-[Products Page](https://share.samsungcloud.com/sharedalbum/6JN1UIcZI4){:target="_blank"}
+.[Products](https://electroboy10.github.io/TakeWay.github.io/products)
 
 ## General location.
 [Location](https://maps.app.goo.gl/vDgT3D6rJisTjN4Z9)
 
-All orders must be picked up, we don’t deliver unless otherwise arranged.
-
-testing
-Check out our [products page](products.html) to see what we have in stock. note this is for testing
+## want to see more info on what i sell click here
+[Products Page](https://share.samsungcloud.com/sharedalbum/6JN1UIcZI4){:target="_blank"}
