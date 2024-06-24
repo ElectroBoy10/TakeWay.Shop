@@ -26,7 +26,7 @@ body {
 header, footer {
   background-color: rgba(52, 58, 64, 0.8); /* Dark background with transparency */
   color: #ffffff; /* White text */
-  padding: 10px 20px; /* Adjusted padding for header and footer */
+  padding: 1px 1px; /* Adjusted padding for header and footer */
   text-align: center;
 }
 
@@ -65,5 +65,5 @@ a:hover {
 
 footer {
   font-size: 0.9em; /* Adjusted font size for footer */
-  padding: 10px 20px; /* Adjusted padding for footer */
+  padding: 1px 1px; /* Adjusted padding for footer */
 }
