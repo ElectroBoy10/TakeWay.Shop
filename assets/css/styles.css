@@ -62,9 +62,9 @@ a:hover {
 
 footer {
   font-size: 0.8em;
-  text-align: right;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  padding: 0;
+  text-align: center; /* Center the text */
+  position: absolute; /* Make the footer position absolute */
+  bottom: 0;
+  width: 100%; /* Ensure the footer spans the full width of the page */
+  padding: 10px 0; /* Add some padding */
 }
