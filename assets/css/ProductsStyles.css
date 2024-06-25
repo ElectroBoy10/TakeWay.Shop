@@ -76,4 +76,6 @@ footer {
   margin: 0 auto 10px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
   border-radius: 8px; /* Optional: Add rounded corners */
+  max-width: 100%; /* Ensure the image does not exceed the width of its container */
+  height: auto; /* Maintain aspect ratio */
 }
