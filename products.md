@@ -3,7 +3,7 @@ layout: products
 title: Products
 ---
 
-## [Back to main page](https://electroboy10.github.io/TakeWay.github.io/)
+## [Back to main page](https://electroboy10.github.io/TakeWay.Shop/)
 
 {% assign products = site.data.products %}
 
