@@ -42,7 +42,7 @@ footer {
   text-align: center; /* Center the footer text */
   position: fixed; /* Make the footer fixed to the bottom */
   bottom: 0px;
-  width: 100%; /* Make the footer take the full width */
+  width: 90%; /* Make the footer take the full width */
   padding: 0;
 }
 
@@ -61,7 +61,7 @@ footer {
 
 /* Made by Electroboy text styles */
 .footer-content p {
-  color: #7A001C;  /*color for txt*/
+  color: #ffffff;  /*color for txt*/
   font-weight: bold; /* Optional: Make text bold */
 }
 
