@@ -79,3 +79,45 @@ footer {
   max-width: 100%; /* Ensure the image does not exceed the width of its container */
   height: auto; /* Maintain aspect ratio */
 }
+
+
+/* Navigation bar styles */
+nav {
+  background-color: rgba(52, 58, 64, 0.8);
+  padding: 10px 0; /* Added vertical padding */
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+}
+
+nav ul li {
+  margin: 0 10px; /* Adjusted spacing between navigation items */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove left margin for the first item */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove right margin for the last item */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px; /* Adjusted padding for better button alignment */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
