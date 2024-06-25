@@ -43,14 +43,8 @@ footer {
   text-align: center; /* Center the footer text */
   position: fixed; /* Make the footer fixed to the bottom */
   bottom: 0px;
-  width: 90%; /* Make the footer take the full width */
+  width: 100%; /* Make the footer take the full width */
   padding: 0;
-}
-
-
-.footer-content p {
-  margin: 0; /* Remove default margin */
-  color: #333; /* Default text color */
 }
 
 /* Made by Electroboy text styles */
