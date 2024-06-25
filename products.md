@@ -1,5 +1,5 @@
 ---
-layout: products
+layout: default
 title: Products
 ---
 
