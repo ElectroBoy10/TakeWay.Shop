@@ -38,18 +38,21 @@ header h1 {
 main {
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgba(0 ,0 ,0 , 0.1); /* Dark background for content with slight transparency */
+  background-color: rgba(0, 0, 0, 0.1); /* Dark background for content with slight transparency */
   padding: 20px;
   box-shadow: 0 0 10px rgba(171,171,171,0.3); /* Light shadow for better separation */
   border-radius: 8px; /* Rounded corners */
+  color: #ffffff; /* Ensure main content text is white */
 }
 
 h1, h2, h3 {
   margin-bottom: 20px;
+  color: #ffffff; /* Ensure all headers are white */
 }
 
 p {
   margin-bottom: 10px;
+  color: #ffffff; /* Ensure all paragraphs are white */
 }
 
 a {
