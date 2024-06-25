@@ -80,7 +80,6 @@ footer {
   height: auto; /* Maintain aspect ratio */
 }
 
-
 /* Navigation bar styles */
 nav {
   background-color: rgba(52, 58, 64, 0.8);
@@ -120,4 +119,3 @@ nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
   color: #ffffff;
 }
-
