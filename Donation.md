@@ -18,11 +18,11 @@ Help support my shop by donating using Ethereum (ETH), Bitcoin (BTC), or Binance
 ### Binance Coin (BNB) Address
 <center>0x6463cDA9b39ffbAEd1fd24e205d6c7B46e0954FB</center>
 
-Please donate to support my grandma's shop. The minimum donation amount is $10 USD equivalent in each cryptocurrency.
+Please donate to support me and my home shop. The minimum donation amount is R10 USD equivalent in each cryptocurrency.
 
 ---
 
-## Developer Support
+## Support the developer
 
 Support the developer maintaining this website by donating using Ethereum (ETH), Bitcoin (BTC), or Binance Coin (BNB).
 
