@@ -36,6 +36,35 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
+/* Footer styles */
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px 0; /* Added padding for space around footer content */
+  background-color: rgba(52, 58, 64, 0.8);
+}
+
+.footer-content {
+  display: inline-block; /* Ensures container adapts to content */
+  background-color: white; /* White background */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.footer-content p {
+  margin: 0; /* Remove default margin */
+  color: #333; /* Default text color */
+}
+
+/* Made by Electroboy text styles */
+.footer-content p {
+  color: #ffffff; /* White text color */
+  font-weight: bold; /* Optional: Make text bold */
+}
+
 
 /* Navigation bar styles */
 nav {
