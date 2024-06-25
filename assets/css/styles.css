@@ -38,18 +38,18 @@ main {
 }
 /* Footer styles */
 footer {
-  font-size: 0.8em;
-  text-align: center;
-  position: fixed;
+  font-size: 0.8em; /* Make the footer text smaller */
+  text-align: center; /* Center the footer text */
+  position: fixed; /* Make the footer fixed to the bottom */
   bottom: 0px;
-  width: 100%;
-  padding: 10px 0; /* Added padding for space around footer content */
-  background-color: rgba(52, 58, 64, 0.8);
+  width: 100%; /* Make the footer take the full width */
+  padding: 0;
 }
+
 
 .footer-content {
   display: inline-block; /* Ensures container adapts to content */
-  background-color: white; /* White background */
+  background-color: rgba(31, 36, 42, 0.8); /* White background */
   padding: 10px 20px; /* Adjust padding as needed */
   border-radius: 5px; /* Rounded corners */
 }
