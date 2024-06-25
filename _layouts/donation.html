@@ -3,82 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Donate to My Projects</title>
-  <link rel="stylesheet" href="donation-styles.css">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-  <div class="container">
-    <h1>Support Our Projects!</h1>
-
-    <div class="donation-option">
-      <h2>Fundraising for Grandma's Shop</h2>
-      <p>Help support my grandma's shop!</p>
-      <form>
-        <label for="eth-address-fundraising">Ethereum Address:</label>
-        <div class="input-group">
-          <input type="text" id="eth-address-fundraising" value="0x6463cDA9b39ffbAEd1fd24e205d6c7B46e0954FB" readonly>
-          <button onclick="copyToClipboard('eth-address-fundraising')">Copy</button>
-        </div>
-      </form>
-      <form>
-        <label for="bitcoin-address-fundraising">Bitcoin Address:</label>
-        <div class="input-group">
-          <input type="text" id="bitcoin-address-fundraising" value="bc1q475ys3fwlzw3cun5f55puw3ngy8lwh7h526cmv" readonly>
-          <button onclick="copyToClipboard('bitcoin-address-fundraising')">Copy</button>
-        </div>
-      </form>
-      <form>
-        <label for="bnb-address-fundraising">BNB Address:</label>
-        <div class="input-group">
-          <input type="text" id="bnb-address-fundraising" value="0x6463cDA9b39ffbAEd1fd24e205d6c7B46e0954FB" readonly>
-          <button onclick="copyToClipboard('bnb-address-fundraising')">Copy</button>
-        </div>
-      </form>
-      <p class="instructions">Please donate using Ethereum, Bitcoin, or BNB to support my grandma's shop. The minimum donation amount is $10 USD equivalent in each cryptocurrency.</p>
-    </div>
-
-    <div class="donation-option">
-      <h2>Developer Support</h2>
-      <p>Support the developer maintaining this website!</p>
-      <form>
-        <label for="eth-address-developer">Ethereum Address:</label>
-        <div class="input-group">
-          <input type="text" id="eth-address-developer" value="0x6C31c87f8d6CF0B68fc48B1B6e20F73D90761833" readonly>
-          <button onclick="copyToClipboard('eth-address-developer')">Copy</button>
-        </div>
-      </form>
-      <form>
-        <label for="bitcoin-address-developer">Bitcoin Address:</label>
-        <div class="input-group">
-          <input type="text" id="bitcoin-address-developer" value="bc1q9mk20jz3as6uc29af2jqnwteq43s3lrkylta5w" readonly>
-          <button onclick="copyToClipboard('bitcoin-address-developer')">Copy</button>
-        </div>
-      </form>
-      <form>
-        <label for="bnb-address-developer">BNB Address:</label>
-        <div class="input-group">
-          <input type="text" id="bnb-address-developer" value="0x6C31c87f8d6CF0B68fc48B1B6e20F73D90761833" readonly>
-          <button onclick="copyToClipboard('bnb-address-developer')">Copy</button>
-        </div>
-      </form>
-      <p class="instructions">For donations to support the website developer, please use Ethereum, Bitcoin, or BNB. The minimum donation amount is $10 USD equivalent in each cryptocurrency.</p>
-    </div>
-
-    <!-- Markdown Content -->
-    <div class="markdown-content">
-      <!-- This will be replaced with converted Markdown HTML content -->
-    </div>
-
-  </div>
-
-  <script>
-    function copyToClipboard(elementId) {
-      var copyText = document.getElementById(elementId);
-      copyText.select();
-      copyText.setSelectionRange(0, 99999); /* For mobile devices */
-      document.execCommand("copy");
-      alert("Copied the address: " + copyText.value);
-    }
-  </script>
+  <header>
+    <h1>TakeWay</h1>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/products' | relative_url }}">Products</a></li>
+        <li><a href="#">General Info</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    {{ content }}
+  </main>
+  <footer>
+    <p>Made by Electroboy2008</p>
+  </footer>
 </body>
 </html>
