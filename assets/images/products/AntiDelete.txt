@@ -1,1 +1,0 @@
-Do not delete this file it keeps the file path from being removed when no images is detected
