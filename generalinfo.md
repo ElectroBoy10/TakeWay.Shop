@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TakeWay Home
+title: generalinfo
 ---
 
 <center>Welcome to TakeWay, specializing in authentic South African meals. Founded by my grandmother, we offer homemade dishes that celebrate our South African culinary tradition and commitment to quality.</center>
