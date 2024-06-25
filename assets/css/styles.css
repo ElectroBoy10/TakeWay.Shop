@@ -36,6 +36,7 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
+
 /* Footer styles */
 footer {
   font-size: 0.8em; /* Make the footer text smaller */
@@ -46,13 +47,6 @@ footer {
   padding: 0;
 }
 
-
-.footer-content {
-  display: inline-block; /* Ensures container adapts to content */
-  background-color: rgba(31, 36, 42, 0.8); /* White background */
-  padding: 10px 20px; /* Adjust padding as needed */
-  border-radius: 5px; /* Rounded corners */
-}
 
 .footer-content p {
   margin: 0; /* Remove default margin */
