@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/ProductsStyles.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
   <header>
     <h1>TakeWay</h1>
     <nav>
       <ul>
-        <li><a href="https://electroboy10.github.io/TakeWay.Shop/">Home</a></li>
-        <li><a href="https://electroboy10.github.io/TakeWay.Shop/products">Products</a></li>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/products' | relative_url }}">Products</a></li>
         <li><a href="#">General Info</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="container">
     {{ content }}
   </main>
   <footer>
