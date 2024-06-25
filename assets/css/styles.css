@@ -11,7 +11,7 @@ html, body {
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url('../images/Background.jpeg');
+  background-image: url('../images/Productsbackground.jpg');
   background-size: cover; /* Ensures the image covers the entire viewport */
   background-attachment: fixed; /* Keeps the background fixed */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -68,6 +68,16 @@ footer {
   bottom: 0px;
   width: 100%; /* Make the footer take the full width */
   padding: 0;
+}
+
+/* Product Image Styles */
+.product-image {
+  display: block;
+  margin: 0 auto 10px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  max-width: 100%; /* Ensure the image does not exceed the width of its container */
+  height: auto; /* Maintain aspect ratio */
 }
 
 
