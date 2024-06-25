@@ -1,4 +1,4 @@
-/* Basic reset and base styles */
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -7,9 +7,6 @@
 
 html, body {
   height: 100%;
-}
-
-body {
   font-family: Arial, sans-serif;
   background-image: url('../images/Background.jpeg');
   background-size: cover;
@@ -19,11 +16,7 @@ body {
   color: #333;
 }
 
-.container {
-  padding: 20px;
-}
-
-header, footer {
+header {
   background-color: rgba(52, 58, 64, 0.8);
   color: #ffffff;
   padding: 20px;
@@ -44,32 +37,9 @@ main {
   border-radius: 8px;
 }
 
-p {
-  margin-bottom: 10px;
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  font-size: 0.8em;
-  text-align: center;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  padding: 0;
-}
-
-/* Navigation bar styles */
 nav {
   background-color: rgba(52, 58, 64, 0.8);
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
 }
 
@@ -78,11 +48,11 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* Centers the items horizontally */
+  justify-content: center;
 }
 
 nav ul li {
-  margin: 0 10px; /* Adds spacing between the items */
+  margin: 0 10px;
 }
 
 nav ul li a {
@@ -95,5 +65,16 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 0;
+  background-color: rgba(52, 58, 64, 0.8);
   color: #ffffff;
 }
