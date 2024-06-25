@@ -53,3 +53,7 @@ button:hover {
   font-style: italic;
   color: #666;
 }
+
+.markdown-content {
+  margin-top: 20px;
+}
