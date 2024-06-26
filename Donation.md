@@ -25,6 +25,6 @@ Support the developer maintaining this website by donating using Ethereum (ETH),
 ---
 Big Thanx to all the people supporting this project by donating
 
-If u are unsure of what to do or wnat to ask a question leave a comment on my GitHub page [link]()
+If u are unsure of what to do or wnat to ask a question leave a comment on my GitHub page [link](https://github.com/Electroboy15/Chat-and-info-for-Takway.shop/discussions/1#discussion-6864775)
 
 ---
