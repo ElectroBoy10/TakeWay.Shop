@@ -10,7 +10,7 @@ title: generalinfo
 
 ---
 
-## Want to order or ask a Question WhatsApp me
+## Do you want to order or ask Question, WhatsApp me. 
 [WhatsApp +27 65 677 2625](https://wa.me/27656772625/)
 
 ---
@@ -39,5 +39,5 @@ We accommodate order changes if requested before Thursday for Friday pickups. Pl
 Please refrain from editing or modifying this website. Sharing the link is permitted.
 
 ---
-Consider donating
+*__Consider Donating__*
 [Donation page](https://electroboy10.github.io/TakeWay.Shop/Donation)
