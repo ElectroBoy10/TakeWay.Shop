@@ -29,8 +29,4 @@ If u are unsure of what to do or wnat to ask a question leave a comment on my Gi
 
 ---
 
-<pre>
-hello, this is
-   just an     example
-....
-</pre>
+
