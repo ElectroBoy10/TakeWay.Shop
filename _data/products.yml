@@ -2,11 +2,20 @@ Products:
   - filename: "9a68938f-4607-4911-afc7-ac03e5fb66f7.jpg"
     dispname: "Jaffels"
     price: "R15.00"
+    versions:
+      - "> Mince"
+      - "> Curry Mince"
+      - "> Chicken Mayo"
 
 Not-in-stock:
   - filename: ""
-    dispname: "Curry mince vetkoek"
-    price: "R?"
-  - filename: ""
     dispname: "HamBurger"
     price: "R?"
+    
+  - filename: ""
+    dispname: "Vetkoek"
+    price: "R?"
+    Versions:
+      - "> small"
+      - "> medeum"
+      - "> large"
