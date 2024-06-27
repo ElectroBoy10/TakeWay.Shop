@@ -39,3 +39,5 @@ We accommodate order changes if requested before Thursday for Friday pickups. Pl
 Please refrain from editing or modifying this website. Sharing the link is permitted.
 
 ---
+Consider donating
+[Donation page](https://electroboy10.github.io/TakeWay.Shop/Donation)
