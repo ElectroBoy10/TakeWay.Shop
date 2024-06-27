@@ -17,7 +17,7 @@ Help support me and my shop by donating using Ethereum (ETH), Bitcoin (BTC), or 
 ---
 ## Support the developer
 ---
-Support the developer maintaining this website by donating using<br>Ethereum (ETH), Bitcoin (BTC), or Binance Coin (BNB).
+Support the developer maintaining this website by donating using Ethereum (ETH), Bitcoin (BTC), or Binance Coin (BNB).
 
 ## click on this link to download the .txt file containing all the instructions needed
 [Download](https://drive.google.com/file/d/1EewzBlWPzlgRPFUhsdQgiYr8_DH7Wytw/view?usp=drivesdk)
