@@ -21,7 +21,8 @@ title: TakeWay Home
 <center>Please exit this site if you do not live in, operate in, or plan to visit Despatch, Azalea Park in Port Elizabeth, South Africa.</center>
 
 ### <center>We only supply within this area</center>
-<center>Please go to the general info tab for more information</center>
+
+<center> </center>
 
 ---
 
