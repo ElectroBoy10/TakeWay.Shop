@@ -30,5 +30,3 @@ Please ensure all orders include your full name, surname, desired quantity, and 
 We accommodate order changes if requested before Thursday for Friday pickups. Please inform us promptly to adjust your order.
 
 ---
-Consider donating
-[Donation page](https://electroboy10.github.io/TakeWay.Shop/Donation)
