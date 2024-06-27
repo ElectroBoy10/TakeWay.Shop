@@ -10,7 +10,7 @@ title: TakeWay Home
 
 ---
 
-<center>TakeWay, specializing in authentic South African meals. Founded by me, we offer homemade dishes that celebrate our South African culinary tradition and commitment to quality.</center>
+<center>TakeWay, specializing in authentic South African meals. Founded by my grandmother, we offer homemade dishes that celebrate our South African culinary tradition and commitment to quality.</center>
 
 ---
 
