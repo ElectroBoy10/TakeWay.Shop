@@ -1,9 +1,9 @@
 Products:
   - filename: ""
-    dispname: "Burger"
-    price: "R?,??"
+    dispname: "HamBurger"
+    price: "R25,00"
     versions:
-      - "Cheese Burger"
+      - "Cheese Burger : Home made patries"
 
 Not-in-stock:
   - filename: "9a68938f-4607-4911-afc7-ac03e5fb66f7.jpg"
