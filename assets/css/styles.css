@@ -82,8 +82,8 @@ footer {
 
 /* Navigation bar styles */
 nav {
-  background-color: rgba(52, 58, 64, 0);
-  padding: 10px 0; /* Added vertical padding */
+  background-color: rgba(52, 58, 64, 0.8);
+  padding: 1px 0; /* Added vertical padding */
   text-align: center;
 }
 
@@ -96,7 +96,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 10px; /* Adjusted spacing between navigation items */
+  margin: 0 6px; /* Adjusted spacing between navigation items */
 }
 
 nav ul li:first-child {
