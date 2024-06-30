@@ -1,7 +1,7 @@
 Products:
-  - filename: "Advertising.png"
+  - filename: ""
     dispname: "Burger"
-    price: "R?"
+    price: "R?,??"
     Versions:
       - "Cheese Burger"
 
