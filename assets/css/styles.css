@@ -82,7 +82,7 @@ footer {
 
 /* Navigation bar styles */
 nav {
-  background-color: rgba(52, 58, 64, 0.8);
+  background-color: rgba( 0, 10, 9, 0.8);
   padding: 10px 0; /* Added vertical padding */
   text-align: center;
   border-radius: 8px; /* Rounded corners */
