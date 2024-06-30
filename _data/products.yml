@@ -2,7 +2,7 @@ Products:
   - filename: ""
     dispname: "Burger"
     price: "R?,??"
-    Versions:
+    versions:
       - "Cheese Burger"
 
 Not-in-stock:
@@ -17,7 +17,7 @@ Not-in-stock:
   - filename: ""
     dispname: "Vetkoek"
     price: "R?"
-    Versions:
+    versions:
       - "small"
       - "medeum"
       - "large"
