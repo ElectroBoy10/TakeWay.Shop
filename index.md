@@ -26,6 +26,5 @@ title: TakeWay Home
 
 ---
 
-test 1
 
 
