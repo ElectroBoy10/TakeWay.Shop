@@ -22,7 +22,7 @@ title: TakeWay Home
 
 ### <center>We only supply within this area</center>
 
-<center> </center>
+<center>Go to the product page to view all products</center>
 
 ---
 
