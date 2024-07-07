@@ -9,7 +9,6 @@ Products:
       - "( BBQ or Tamato and Mustard )"
       - "Ekstra pattie +R10"
 
-Not-in-stock:
   - filename: "9a68938f-4607-4911-afc7-ac03e5fb66f7.jpg"
     dispname: "Jaffels"
     price: "R15.00"
@@ -17,3 +16,6 @@ Not-in-stock:
       - "Mince"
       - "Curry Mince"
       - "Chicken Mayo"
+      
+Not-in-stock:
+
