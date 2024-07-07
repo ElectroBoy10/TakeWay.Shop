@@ -1,12 +1,12 @@
 Products:
   - filename: "Burger.jpg"
-    dispname: "HamBurger"
+    dispname: "HamBurger home made beef patties"
     price: "R30,00"
     versions:
-      - "Product include"
+      - "PRODUCTS INCLUDE"
       - "Home made beef patties"
       - "Tomato, Fried onions and a slice of cheese"
-      - "Multiple sauces choice"
+      - "Variety of sauces"
       - "( BBQ or Tamato and Mustard )"
       - "Ekstra pattie +R10"
 
